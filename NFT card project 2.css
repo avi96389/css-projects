@@ -1,0 +1,73 @@
+body{
+    background-color: #0D1A2D;
+    min-height: 100vh;
+    
+}
+.card {
+    position: fixed;
+    margin: auto;
+    padding: 1rem;
+    inset: 0;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #15273F;
+    box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.3);
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+h2{
+    color: white;
+    font-size: 20px;
+}
+p{
+    color: #8bacda;
+}
+.money-time-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.time-info{
+    display: flex;
+    align-items: end;
+    font-size: 14px;
+}
+.eth-info{
+    display: flex;
+    align-items: center;
+    color: #00fff7;
+    font-weight: 400;
+    font-size: 14px;
+}
+.light-text{
+    font-size: 14px;
+    color: #8bacda;
+}
+.line{
+    height: 1px;
+    width: 95%;
+    background-color:#8bacda ;
+    margin: 2rem auto ;
+    opacity: .3;
+}
+
+.avatar-container {
+    display: flex;
+}
+.avatar-container img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 90%; 
+}
+.avatar-container p {
+padding-top: 1px;
+padding-left: 10px;
+}
+.white-text{
+    height: 10px;
+    color: white;
+}
